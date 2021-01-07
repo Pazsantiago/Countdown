@@ -15,21 +15,21 @@
 	<p class="p-will">We will be back in...</p>
 
 	<main id="main-container">
-		<div class="">
+		<div class="container-items__days">
 			<h1 class="header-number__days"></h1>
-			<p></p>
+			<p class="p-number"></p>
 		</div>
-		<div>
+		<div class="container-items__hours">
 			<h1 class="header-number__hours"></h1>
-			<p></p>
+			<p class="p-number"></p>
 		</div>
-		<div>
+		<div class="container-items__minutes">
 			<h1 class="header-number__minutes"></h1>
-			<p></p>
+			<p class="p-number"></p>
 		</div>
-		<div>
+		<div class="container-items__seconds">
 			<h1 class="header-number__second"></h1>
-			<p></p>
+			<p class="p-number"></p>
 		</div>
 	</main>
 

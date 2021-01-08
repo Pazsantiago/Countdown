@@ -12,7 +12,8 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -24,30 +25,32 @@ p{
 }
 .coming{
 	margin-top: 2%;
-	margin-bottom: 10%;
+	margin-bottom: 3%;
 	font-size: 42px;
 	color: #B03A2E;
-	font-weight: bolder;l
+	font-weight: bolder;
 }
 .p-will{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	font-size: 24px;
 	color: #5F6A6A;
 	font-weight: bold;
 }
 #main-container{
 	min-width: 500px;
-	height: 80px;
+	height: 60px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 8%;
 }
 .header-number{
-	font-size: 28px;
-	color: #B03A2E;
+	font-size: 32px;
+	color: #F1C40F;
 }
 .p-number{
 	font-size: 24px;
-	color: black; 
+	color: #5DADE2; 
+	font-weight: bolder;
 }
 .container-items__days,
 .container-items__hours,
@@ -57,4 +60,37 @@ p{
 #container-items{	
 	padding: 5px;
 	text-align: center;
+}
+.container-notice{
+	margin-bottom: 10%;
+	height: 10vh;
+
+}
+.container-notice p{
+	color: #52BE80;
+	font-size: 36px;
+	font-weight: bolder;
+	margin-bottom: 5vh;
+	text-align: center;
+}
+.container-form{
+	display: flex;
+	height: 40px;
+	text-align: center;
+}
+.container-form input{
+	min-width: 300px;
+	text-indent: 8px;
+}
+.container-form input::placeholder{
+	color: #626567;
+}
+.container-form button{
+	min-width: 90px;
+	font-size: 18px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	background-color: #FA8072;	
+	border: none;
 }

@@ -15,23 +15,33 @@
 	<p class="p-will">We will be back in...</p>
 
 	<main id="main-container">
-		<div id="container-items" class="container-items__days">
-			<h1 class="header-number__days">1</h1>
+		<div class="container-items__days" id="container-items">
+			<h1 id="header-number__days" class="header-number"></h1>
 			<p class="p-number">days</p>
 		</div>
-		<div id="container-items" class="container-items__hours">
-			<h1 class="header-number__hours">1</h1>
+		<div class="container-items__hours" id="container-items">
+			<h1 id="header-number__hours" class="header-number"></h1>
 			<p class="p-number">hours</p>
 		</div>
-		<div id="container-items" class="container-items__minutes">
-			<h1 class="header-number__minutes">1</h1>
+		<div class="container-items__minutes" id="container-items">
+			<h1 id="header-number__minutes" class="header-number"></h1>
 			<p class="p-number">minutes</p>
 		</div>
-		<div id="container-items" id="container-items__seconds">
-			<h1 class="header-number__second">1</h1>
+		<div class="container-items__seconds" id="container-items">
+			<h1 id="header-number__second" class="header-number"></h1>
 			<p class="p-number">seconds</p>
 		</div>
 	</main>
+
+	<div class="container-notice">
+		<p>Get Notified 【ツ】</p>
+		<form>
+			<div class="container-form">
+				<input type="text" placeholder="email adress">
+				<button>Go</button>
+			</div>
+		</form>
+	</div>
 
 	<script src="js/app.js"></script>
 

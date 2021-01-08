@@ -47,10 +47,14 @@ p{
 }
 .p-number{
 	font-size: 24px;
-	color: #5F6A6A; 
+	color: black; 
 }
 .container-items__days,
 .container-items__hours,
 .container-items__minutes{
 	border-right: 5px solid #5F6A6A;
+}
+#container-items{	
+	padding: 5px;
+	text-align: center;
 }

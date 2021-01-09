@@ -37,12 +37,19 @@
 		<p>Get Notified 【ツ】</p>
 		<form>
 			<div class="container-form">
-				<input type="text" placeholder="email adress">
+				<input type="text" name="email" placeholder="email adress" autocomplete="off">
 				<button>Go</button>
 			</div>
 		</form>
 	</div>
-
+	<?php 
+		include("php/enviarMail.php");
+	?>
+	<script>
+		if(localStorage.getItem("Termino") == "1"){
+			// alert("<?php ; ?>");
+		}
+	</script>
 	<script src="js/app.js"></script>
 
 </body>

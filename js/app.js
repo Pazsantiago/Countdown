@@ -18,12 +18,16 @@ function MostrarCuentaAtras(final){
 	let hours = document.querySelector("#header-number__hours");
 	let minutes = document.querySelector("#header-number__minutes");
 	let seconds = document.querySelector("#header-number__second");
-	setInterval(function(){
+	let contador = setInterval(function(){
 		let f = EstablecerTiempo(final);
 		days.innerHTML = f.days;
 		hours.innerHTML = f.hours;
 		minutes.innerHTML = f.minutes;
 		seconds.innerHTML = f.seconds;
+		if(f.restante <= 1){
+			clearInterval(contador);
+			localStorage.setItem("Termino", "1");
+		}
 	}, 1000);
 }
-MostrarCuentaAtras('May 23 2021 00:00:00 GMT-0300');
+MostrarCuentaAtras('Jan 08 2021 20:48:00 GMT-0300');

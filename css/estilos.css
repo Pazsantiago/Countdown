@@ -61,36 +61,3 @@ p{
 	padding: 5px;
 	text-align: center;
 }
-.container-notice{
-	margin-bottom: 10%;
-	height: 10vh;
-
-}
-.container-notice p{
-	color: #52BE80;
-	font-size: 36px;
-	font-weight: bolder;
-	margin-bottom: 5vh;
-	text-align: center;
-}
-.container-form{
-	display: flex;
-	height: 40px;
-	text-align: center;
-}
-.container-form input{
-	min-width: 300px;
-	text-indent: 8px;
-}
-.container-form input::placeholder{
-	color: #626567;
-}
-.container-form button{
-	min-width: 90px;
-	font-size: 18px;
-	color: white;
-	outline: none;
-	cursor: pointer;
-	background-color: #FA8072;	
-	border: none;
-}

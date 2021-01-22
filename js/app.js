@@ -30,4 +30,4 @@ function MostrarCuentaAtras(final){
 		}
 	}, 1000);
 }
-MostrarCuentaAtras('Jan 08 2021 20:48:00 GMT-0300');
+MostrarCuentaAtras('May 23 2021 00:00:00 GMT-0300');
